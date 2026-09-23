@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "my-first-server": {
+      "type": "stdio",
+      "command": "/Users/ajay/code/ai/claude/claude-code/custom-mcp-server/.venv/bin/python",
+      "args": [
+        "/Users/ajay/code/ai/claude/claude-code/custom-mcp-server/server.py"
+      ],
+      "env": {}
+    }
+  }
+}
