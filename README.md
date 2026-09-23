@@ -71,6 +71,14 @@ This writes `.mcp.json` with absolute paths. Since `.mcp.json` is committed to g
 - Remove: `claude mcp remove my-first-server --scope project`
 - First load of a project's `.mcp.json` prompts for approval
 
+### Trying it out
+
+Start a Claude Code session in this directory, type `/mcp` to confirm `my-first-server` is connected, then try:
+
+- "Save a note called Groceries: milk, eggs, bread"
+- "Search my notes for eggs"
+- "Use the add tool to add 42 and 58"
+
 ## Notes
 
 - `NOTES` storage in `server.py` is in-memory only and resets on restart.
