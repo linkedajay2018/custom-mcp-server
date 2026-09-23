@@ -74,3 +74,7 @@ This writes `.mcp.json` with absolute paths. Since `.mcp.json` is committed to g
 ## Notes
 
 - `NOTES` storage in `server.py` is in-memory only and resets on restart.
+
+## License
+
+[MIT](LICENSE)
